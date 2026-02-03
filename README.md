@@ -52,7 +52,7 @@ The project includes comprehensive documentation generated via Doxygen and Graph
 
 •	Dependency Graphs: illustrating the file structure and include relationships.
 <div align="center">
-  <img src="Doxygen_graph_demo.png" alt="Doxygen Call Graph" width="800">
+  <img src="assets/Doxygen_graph_demo.png" alt="Doxygen Call Graph" width="800">
   <p><i>Function hierarchy visualization (Call Graph) generated via Doxygen.</i></p>
 </div>
 
@@ -85,15 +85,15 @@ You can also open the project using Code::Blocks (opening Generala.cbp) or Visua
     <td align="center"><b>Spanish Interface</b></td>
   </tr>
   <tr>
-    <td><img src="screen3.png" width="400"></td>
-    <td><img src="screen.png" width="400"></td>
+    <td><img src="assets/screen3.png" width="400"></td>
+    <td><img src="assets/screen.png" width="400"></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><b>🏆 In-Memory Ranking System</b></td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="screen2.png" width="600">
+      <img src="asets/screen2.png" width="600">
       <p><i>The system tracks high scores during the session, implementing sorting algorithms to rank players.</i></p>
     </td>
   </tr>
@@ -102,7 +102,7 @@ You can also open the project using Code::Blocks (opening Generala.cbp) or Visua
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="screen1.png" width="600">
+      <img src="assets/screen1.png" width="600">
       <p><i>Game results.</i></p>
     </td>
   </tr>
