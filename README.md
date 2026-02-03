@@ -2,7 +2,7 @@
 A robust, modular implementation of the classic dice game "Generala", developed in C++ with a strong focus on software engineering principles, portability, and technical documentation.
 
 <div align="center">
-  <img src="quick_generala_demo.gif" alt="Generala Gameplay Demo" width="800">
+  <img src="assets/quick_generala_demo.gif" alt="Generala Gameplay Demo" width="800">
   <p><i>Gameplay demo: selective rerolls, dice animations depending on relevant dice, and Generala detection logic (and scoring).</i></p>
 </div>
 
@@ -93,7 +93,7 @@ You can also open the project using Code::Blocks (opening Generala.cbp) or Visua
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="asets/screen2.png" width="600">
+      <img src="assets/screen2.png" width="600">
       <p><i>The system tracks high scores during the session, implementing sorting algorithms to rank players.</i></p>
     </td>
   </tr>
