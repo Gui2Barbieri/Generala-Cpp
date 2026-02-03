@@ -491,8 +491,8 @@ void random_die_animation(int x, int y){
 }
 
 void player_turn_ui(const string &player_name, int player_score, int round, int roll_count, bool is_spanish){
-        is_spanish ? cout << "Turno de " << player_name << "|" << "   Ronda " << round << "   |" << "Puntaje Total: " << player_score << " puntos\n"
-        : cout << "Current player: " << player_name << "|" << "   Round " << round << "    |" << "Total Score: " << player_score << " points\n";
+        is_spanish ? cout << "Turno de " << player_name << " |" << "   Ronda " << round << "   |" << " Puntaje Total: " << player_score << " puntos\n"
+        : cout << "Current player: " << player_name << " |" << "   Round " << round << "    |" << " Total Score: " << player_score << " points\n";
         cout << "--------------------------------------------------\n";
         is_spanish ? cout << "Lanzamiento " << roll_count << '\n': cout << "Roll #" << roll_count << '\n';
         cout << "--------------------------------------------------\n";
@@ -547,9 +547,9 @@ void display_victory_message(bool served_generala[], const string player_name[],
             rlutil::hidecursor();
             draw_lower_line(79);
             if(is_debug){
-                is_spanish ? blinking_text("Ganaste por generala servida, felicitaciones!\n",22,5,15) : blinking_text("You won by Generala Servida, congratulations!\n",18,5,15);
+                is_spanish ? blinking_text("Ganaste por Generala Servida, felicitaciones!\n",22,5,15) : blinking_text("You won by Served Generala, congratulations!\n",18,5,15);
             }else{
-                is_spanish ? blinking_text("Ganaste por generala servida, felicitaciones!\n",22,5,0) : blinking_text("You won by Generala Servida, congratulations!\n",18,5,0);
+                is_spanish ? blinking_text("Ganaste por Generala Servida, felicitaciones!\n",22,5,0) : blinking_text("You won by Served Generala, congratulations!\n",18,5,0);
             }
             pause(is_spanish);
             rlutil::showcursor();
@@ -560,9 +560,9 @@ void display_victory_message(bool served_generala[], const string player_name[],
             rlutil::hidecursor();
             draw_lower_line(79);
             if(is_debug){
-                is_spanish ? blinking_text("Ganaste por generala servida, felicitaciones!\n",22,5,15) : blinking_text("You won by Generala Servida, congratulations!\n",18,5,15);
+                is_spanish ? blinking_text("Ganaste por Generala Servida, felicitaciones!\n",22,5,15) : blinking_text("You won by Served Generala, congratulations!\n",18,5,15);
             }else{
-                is_spanish ? blinking_text("Ganaste por generala servida, felicitaciones!\n",22,5,0) : blinking_text("You won by Generala Servida, congratulations!\n",18,5,0);
+                is_spanish ? blinking_text("Ganaste por Generala Servida, felicitaciones!\n",22,5,0) : blinking_text("You won by Served Generala, congratulations!\n",18,5,0);
             }
             pause(is_spanish);
             rlutil::showcursor();
@@ -582,9 +582,9 @@ void display_victory_message(bool served_generala[], const string player_name[],
             rlutil::hidecursor();
             draw_lower_line(79);
             if(is_debug){
-                is_spanish ? blinking_text("Ganaste por generala servida, felicitaciones!\n",22,5,15) : blinking_text("You won by Generala Servida, congratulations!\n",18,5,15);
+                is_spanish ? blinking_text("Ganaste por Generala Servida, felicitaciones!\n",22,5,15) : blinking_text("You won by Served Generala, congratulations!\n",18,5,15);
             }else{
-                is_spanish ? blinking_text("Ganaste por generala servida, felicitaciones!\n",22,5,0) : blinking_text("You won by Generala Servida, congratulations!\n",18,5,0);
+                is_spanish ? blinking_text("Ganaste por Generala Servida, felicitaciones!\n",22,5,0) : blinking_text("You won by Served Generala, congratulations!\n",18,5,0);
             }
             pause(is_spanish);
             rlutil::showcursor();
