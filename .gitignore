@@ -39,3 +39,11 @@
 
 # debug information files
 *.dwo
+
+# Code::Blocks folders
+bin/
+obj/
+
+# Personal configuration files
+*.layout
+*.depend
