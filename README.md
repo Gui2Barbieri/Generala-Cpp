@@ -58,6 +58,8 @@ The project includes comprehensive documentation generated via Doxygen and Graph
 
 ## 🚀 Build & Run
 
+Note: Pre-compiled binaries are provided for convenience. If your antivirus flags the Windows version, it is a false positive common with MinGW-compiled files without digital signatures. You can always build from source for 100% transparency.
+
 ### Prerequisites
 You need a C++ compiler installed on your system.
 * **Windows:** MinGW (g++) or similar.
@@ -65,6 +67,11 @@ You need a C++ compiler installed on your system.
 
 ### Option A: Command Line (Recommended)
 
+Clone the repository:
+   ```bash
+   git clone https://github.com/Gui2Barbieri/Generala-Cpp.git
+   cd Generala-Cpp
+   ```
 **Windows (PowerShell / CMD)**
 ```powershell
 g++ -o generala.exe main.cpp game.cpp game_utils.cpp ui_utils.cpp
